@@ -9,6 +9,8 @@ binaries=(
 	autojump
 	tmux
 	vim
+	macvim
+	ctags
 )
 
 echo "Installing binaries"

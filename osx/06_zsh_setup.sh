@@ -1,0 +1,4 @@
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+rm ~/.zshrc
+ln -s ~/dev/personal/setup/osx/dotfiles/zshrc ~/.zshrc

@@ -1,16 +1,16 @@
 binaries=(
-	rbenv
-	ruby-build
-	node
-	tree
-	ack
-	ag
-	git
-	autojump
-	tmux
-	vim
-	macvim
-	ctags
+  rbenv
+  ruby-build
+  rbenv-gemset
+  node
+  tree
+  ack
+  ag
+  git
+  autojump
+  tmux
+  vim
+  ctags
 )
 
 echo "Installing binaries"

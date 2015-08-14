@@ -1,18 +1,20 @@
 apps=(
-	alfred
-	dropbox
-	google-chrome
-	slack
-	firefox
-	iterm2
-	skype
-	1password
-	dash
-	evernote
-	harvest
-	spectacle
-	sketch
-	flowdock
+  alfred
+  dropbox
+  google-chrome
+  music-manager
+  slack
+  firefox
+  iterm2
+  skype
+  1password
+  dash
+  evernote
+  harvest
+  spectacle
+  sketch
+  flowdock
+  slack
 )
 
 echo "Installing cask apps"

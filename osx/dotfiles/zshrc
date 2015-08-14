@@ -87,7 +87,8 @@ source $ZSH/oh-my-zsh.sh
 # Extra Integrations
 
 # Add brew's coreutils to path
-export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
+PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
+PATH=$PATH:~/bin
 
 # Autojump
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
@@ -98,3 +99,6 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # Set vim as default editor
 export EDITOR='vim'
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

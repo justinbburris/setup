@@ -7,7 +7,6 @@ apps=(
   firefox
   iterm2
   skype
-  1password
   dash
   evernote
   harvest

@@ -1,5 +1,6 @@
 apps=(
   alfred
+  cloudup
   dropbox
   google-chrome
   music-manager

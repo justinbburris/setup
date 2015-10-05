@@ -1,8 +1,0 @@
-insert homebrew tools into zsh
-
-`$PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH`
-
-`[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh`
-
-`#To enable shims and autocompletion add to your profile:`
-`if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi`

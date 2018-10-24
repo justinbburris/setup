@@ -1,9 +1,6 @@
 binaries=(
   rbenv
   ruby-build
-  rbenv-gemset
-  rbenv-gem-rehash
-  node
   tree
   ack
   ag

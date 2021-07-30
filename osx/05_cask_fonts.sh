@@ -2,8 +2,9 @@ fonts=(
 	font-source-code-pro
 	font-source-code-pro-for-powerline
 )
-brew tap caskroom/fonts
+brew tap homebrew/cask-fonts
 
+brew install svn
 echo "Installing fonts..."
-brew cask install ${fonts[@]}
+brew install ${fonts[@]}
 

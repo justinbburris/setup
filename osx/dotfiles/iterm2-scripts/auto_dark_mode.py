@@ -14,7 +14,7 @@ async def main(connection):
             if "dark" in parts:
                 preset = await iterm2.ColorPreset.async_get(connection, "Solarized Dark")
             else:
-                preset = await iterm2.ColorPreset.async_get(connection, "Light Background")
+                preset = await iterm2.ColorPreset.async_get(connection, "Solarized Light")
 
             # Update the list of all profiles and iterate over them.
             profiles=await iterm2.PartialProfile.async_query(connection)

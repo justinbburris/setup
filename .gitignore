@@ -1,2 +1,3 @@
 .DS_Store
-gitconfig
+gitconfig.light
+gitconfig.dark

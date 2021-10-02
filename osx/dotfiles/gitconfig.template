@@ -25,7 +25,7 @@
 [delta]
   features = decorations
   side-by-side = true
-  syntax-theme = Solarized (light)
+  syntax-theme = SYNTAX_THEME
 
 [delta "interactive"]
   keep-plus-minus-markers = false

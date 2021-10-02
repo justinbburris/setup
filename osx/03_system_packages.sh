@@ -1,13 +1,11 @@
 binaries=(
-  rbenv
-  ruby-build
   tree
   ack
   ag
   git
   autojump
   tmux
-  vim
+  nvim
   ctags
 )
 
@@ -16,4 +14,4 @@ brew install ${binaries[@]}
 
 brew cleanup
 
-brew install caskroom/cask/brew-cask
+brew tap homebrew/cask

@@ -7,6 +7,7 @@ binaries=(
   tmux
   nvim
   ctags
+  git-delta
 )
 
 echo "Installing binaries"

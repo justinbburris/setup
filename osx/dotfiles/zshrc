@@ -14,7 +14,10 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # pyenv & pyenv-virtualenv
 # To enable shims and autocompletion add to your profile:
+# https://github.com/pyenv/pyenv#basic-github-checkout
+if which pyenv > /dev/null; then eval "$(pyenv init --path)"; fi
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
 alias b=bundle exec
+eval "$(pyenv init -)"

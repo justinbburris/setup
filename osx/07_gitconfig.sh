@@ -1,4 +1,4 @@
-rm ~/.gitconfig
+mv ~/.gitconfig ~/.gitconfig.pre-setup-script
 
 # dark config
 cp ~/dev/personal/setup/osx/dotfiles/gitconfig.template \
@@ -12,14 +12,14 @@ cp ~/dev/personal/setup/osx/dotfiles/gitconfig.template \
 sed -i '' -e "s/SYNTAX_THEME/Solarized\ \(Light\)/g" \
   ~/dev/personal/setup/osx/dotfiles/gitconfig.light
 
-gpg --list-secret-keys --keyid-format=long
-echo "Please enter GPG signing key"
-read signingkey
+# gpg --list-secret-keys --keyid-format=long
+# echo "Please enter GPG signing key"
+# read signingkey
 
-sed -i '' -e "s/SIGNING_KEY/$signingkey/g" \
-  ~/dev/personal/setup/osx/dotfiles/gitconfig.dark
+# sed -i '' -e "s/SIGNING_KEY/$signingkey/g" \
+#   ~/dev/personal/setup/osx/dotfiles/gitconfig.dark
 
-sed -i '' -e "s/SIGNING_KEY/$signingkey/g" \
-  ~/dev/personal/setup/osx/dotfiles/gitconfig.light
+# sed -i '' -e "s/SIGNING_KEY/$signingkey/g" \
+#   ~/dev/personal/setup/osx/dotfiles/gitconfig.light
 
 ln -s ~/dev/personal/setup/osx/dotfiles/gitconfig.dark ~/.gitconfig

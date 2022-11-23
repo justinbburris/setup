@@ -4,8 +4,10 @@ if [ -d "~/.oh-my-zsh" ]; then
 fi
 
 echo "Linking configs"
-rm ~/.zshrc
+mv ~/.zshrc ~/.zshrc.pre-setup-run
 ln -s ~/dev/personal/setup/osx/dotfiles/zshrc ~/.zshrc
 
-rm ~/.zshenv
+if [ -d "~/.zshenv" ]; then
+  mv ~/.zshenv ~/.zshenv.pre-setup-run
+fi
 ln -s ~/dev/personal/setup/osx/dotfiles/zshenv ~/.zshenv

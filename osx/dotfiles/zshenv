@@ -1,18 +1,13 @@
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-
 export ZSH_THEME="amuse"
 
-# Set vim as default editor
+# Reset PATH and add system bins to path
+export PATH="/bin:/sbin:/usr/bin:/usr/sbin"
+
+# Add homebrew bins to PATH
+export PATH="$PATH:/usr/local/bin"
+
+# Set nvim as default editor
 export EDITOR='nvim'
-
-# Add brew's coreutils to path
-export PATH=$PATH:~/bin
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

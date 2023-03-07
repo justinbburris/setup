@@ -11,3 +11,18 @@ export PATH="$PATH:/usr/local/bin"
 
 # Set nvim as default editor
 export EDITOR='nvim'
+
+# Add brew's coreutils to path
+export PATH=$PATH:~/bin
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+### Add ~ bin to path
+export PATH="~/bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# Octoprint
+alias ssh_octoprint="ssh pi@octoprint.local"

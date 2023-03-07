@@ -1,6 +1,6 @@
 fonts=(
 	font-source-code-pro
-	font-source-code-pro-for-powerline
+	font-sauce-code-pro-nerd-font
 )
 brew tap homebrew/cask-fonts
 
